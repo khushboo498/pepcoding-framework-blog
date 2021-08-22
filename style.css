@@ -36,7 +36,8 @@ body{
     font-size: 30px;
     font-weight: 400;
     line-height: 1.2;
-    margin: 15px 0;
+    margin-top: 15px;
+    margin-bottom: 30px;
     font-family: 'Noto Sans JP', sans-serif;
     position: relative;
 }
@@ -270,6 +271,7 @@ section.small-screen-nav.show {
 }
 
 /*banner image*/
+/*box animation*/
 .banner-image{
     width: 200px;
     height: 200px;
@@ -295,7 +297,7 @@ section.small-screen-nav.show {
     border-radius: 10px;
     background-position: center;
     /*transform: translateZ(100px);*/
-    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    transform: rotateY(360deg) rotateZ(360deg) translateZ(100px);
 
 }
 .banner-image .box-area .box2{
@@ -305,7 +307,7 @@ section.small-screen-nav.show {
     border-radius: 10px;
     background-position: center;
     /*transform: translateZ(100px);*/
-        transform: rotateY(90deg) rotateX(90deg) translateZ(-100px);
+    transform: rotateY(-90deg) rotateX(-90deg) translateZ(100px);
 
 }
 .banner-image .box-area .box3{
@@ -318,7 +320,7 @@ section.small-screen-nav.show {
     transform: rotateX(90deg) rotateX(90deg) translateZ(100px);
 }
 .banner-image .box-area .box4{
-    background-image: url('./image/logos-04.png') ;
+    background-image: url('./image/logos-08.png');
     /*-webkit-background-size:cover;*/
     background-size: cover;
     border-radius: 10px;
@@ -342,27 +344,11 @@ section.small-screen-nav.show {
     background-size: cover;
     border-radius: 10px;
     background-position: center;
-    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    transform: rotateY(270deg) rotateX(180deg) translateZ(100px);
 
 }
-.banner-image .box-area .box7{
-    background-image: url('./image/logos-07.png');
-    /*-webkit-background-size:cover;*/
-    background-size: cover;
-    border-radius: 10px;
-    background-position: center;
-    transform: rotateZ(-90deg) rotateZ(90deg) translateZ(100px);
 
-}
-.banner-image .box-area .box8{
-    background-image: url('./image/logos-08.png');
-    /*-webkit-background-size:cover;*/
-    background-size: cover;
-    border-radius: 10px;
-    background-position: center;
-    transform: rotateY(90deg) translateZ(100px);
 
-}
 @keyframes box{
     from,to{
         transform: rotateX(90deg) rotateY(90deg) rotateZ(90deg);
@@ -380,16 +366,10 @@ section.small-screen-nav.show {
         transform: rotateY(-180deg) rotateZ(90deg);
     }
     66%{
-        transform: rotateY(-2700deg) rotateZ(90deg);
+        transform: rotateY(-270deg) rotateZ(90deg);
     }
     83%{
         transform: rotateX(90deg) rotateZ(90deg);
-    }
-    93%{
-        transform: rotateY(-90deg) rotateZ(90deg);
-    }
-    100%{
-        transform: rotateY(90deg) rotateZ(90deg);
     }
 }
 /*main-head */
