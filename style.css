@@ -101,10 +101,10 @@ body{
 }
 .in-nav .logo .in-logo img {
     position: absolute;
-   width: 100%;
+    width: 100%;
     height: 100%;
     top: 0;
-    left: 0;
+    left: -34%;
     object-fit: contain;
 }
 
@@ -147,9 +147,10 @@ body{
     font-size: 15px;
 }
 .small-screen-nav {
-    width: 100%;
+    width: 40%;
     /*padding-top: 200px;*/
     top: 7%;
+    right: 0;
     display: none;
     position: fixed;
     z-index: 100;
@@ -172,6 +173,10 @@ section.small-screen-nav.show {
     opacity: 0.6;
     padding: 12px 0;
     border-bottom: 1px solid #000;
+}
+.small-nav-bar a:hover {
+    background-color: #EAEAEA;
+    font-size: 16px;
 }
 
 /*banner*/
@@ -204,7 +209,7 @@ section.small-screen-nav.show {
     font-size: 70px;
     font-weight: 600;
     color: #fff;
-    left: 55px;
+    /*left: 55px;*/
     position: relative;
     animation: title 1s ease-in-out ;
 }
@@ -226,7 +231,7 @@ section.small-screen-nav.show {
     font-size: 22px;
     font-weight: 600;
     position: relative;
-    left: 55px;
+    /*left: 55px;*/
     animation: author 4s ease-in-out;
 
 }
@@ -251,7 +256,7 @@ section.small-screen-nav.show {
     font-size: 14px;
     color: #7A7677;
     position: relative;
-    left: 55px;
+    /*left: 55px;*/
     animation: date 6s ease-in-out ;
 }
 @keyframes date{
@@ -393,6 +398,9 @@ section.small-screen-nav.show {
     padding-bottom: 26px;
     position: relative;
 }
+.what-do-they-do .paragraph {
+    padding-left: 30px;
+}
 .in-what-do-they-do {
     box-shadow: 0px 10px 20px 0px rgb(0 0 215 / 20%);
     padding: 10px 20px;
@@ -406,6 +414,9 @@ section.small-screen-nav.show {
 .in-types {
     box-shadow: 0px 10px 20px 0px rgb(0 0 215 / 20%);
     padding: 10px 20px;
+}
+.types .heading3~p {
+    padding-left: 30px;
 }
 /*get-job*/
 .get-job {
@@ -480,7 +491,10 @@ section.small-screen-nav.show {
     .banner {
         padding-top: 110px;
     }
-
+    .banner-title {
+        font-size: 68px;
+        font-weight: 600;
+    }
     .banner-image img {
         top: -23px;
         left: 13%;
@@ -525,6 +539,10 @@ section.small-screen-nav.show {
         padding-top: 90px;
         padding-bottom: 30px;
     }
+    .banner-title {
+        font-size: 66px;
+        font-weight: 600;
+    }
     .banner-image {
         display: none;
 }
@@ -547,6 +565,10 @@ section.small-screen-nav.show {
     .banner {
         padding-top: 80px;
         padding-bottom: 30px;
+    }
+    .banner-title {
+        font-size: 64px;
+        font-weight: 600;
     }
      .banner-image {
         display: none;
@@ -577,6 +599,10 @@ section.small-screen-nav.show {
     }
     .banner {
         padding-top: 70px;
+    }
+    .banner-title {
+        font-size: 62px;
+        font-weight: 600;
     }
      .banner-image {
         display: none;
