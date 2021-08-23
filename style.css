@@ -540,11 +540,19 @@ section.small-screen-nav.show {
         padding-bottom: 30px;
     }
     .banner-title {
-        font-size: 66px;
+        font-size: 68px;
+        font-weight: 600;
+    }
+    .author {
+        font-size: 20px;
         font-weight: 600;
     }
     .banner-image {
         display: none;
+    }
+    .banner-text {
+        width: 100%;
+    }   
 }
 @media screen and (max-width: 768px){
     body {
@@ -570,9 +578,19 @@ section.small-screen-nav.show {
         font-size: 64px;
         font-weight: 600;
     }
+    .author {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .date {
+        font-size: 12px;
+    }
      .banner-image {
         display: none;
     }
+    .banner-text {
+        width: 100%;
+    } 
     .in-nav .nav-bar {
         display: none;
     }
@@ -601,12 +619,22 @@ section.small-screen-nav.show {
         padding-top: 70px;
     }
     .banner-title {
-        font-size: 62px;
+        font-size: 56px;
         font-weight: 600;
+    }
+    .author {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .date {
+        font-size: 10px;
     }
      .banner-image {
         display: none;
     }
+    .banner-text {
+        width: 100%;
+    } 
    
 }
 
